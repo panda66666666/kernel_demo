@@ -1,6 +1,14 @@
 #include <iostream>
+template<class T>
+T add(T a,T b)
+{
+    return a + b;
+}
+ 
 int main()
 {
-    std::cout << "hello world!";
+
+    int a = 1, b = 1;
+    std::cout << add(a, b);
     return 0;
 }
